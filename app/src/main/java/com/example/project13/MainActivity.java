@@ -37,33 +37,12 @@ public class MainActivity extends AppCompatActivity {
             }
             if (b2.isChecked()){
                 layout.setBackgroundColor(Color.RED);
-
             }
             if (b3.isChecked()){
                 layout.setBackgroundColor(Color.RED);
-
             }
             if (b4.isChecked()){
                 layout.setBackgroundColor(Color.RED);
-
-            }
-        }
-        else{
-            if (b1.isChecked()){
-                layout.setBackgroundColor(Color.RED);
-
-            }
-            if (b2.isChecked()){
-                layout.setBackgroundColor(Color.PINK);
-
-            }
-            if (b3.isChecked()){
-                layout.setBackgroundColor(Color.RED);
-
-            }
-            if (b4.isChecked()){
-                layout.setBackgroundColor(Color.RED);
-
             }
         }
     }
