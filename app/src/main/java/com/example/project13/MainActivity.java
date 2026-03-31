@@ -30,20 +30,26 @@ public class MainActivity extends AppCompatActivity {
         b4 = findViewById(R.id.b4);
 
     }
+    public void next(View view){
+        if (swDN.isChecked()) {
+            layout.setBackgroundColor(Color.RED);
+        }
+        else{
+            layout.setBackgroundColor(Color.GREEN);
+        }
+    }
     public void go(View view) {
-        if (swDN.isChecked()){
-            if (b1.isChecked()){
-                layout.setBackgroundColor(Color.RED);
-            }
-            if (b2.isChecked()){
-                layout.setBackgroundColor(Color.RED);
-            }
-            if (b3.isChecked()){
-                layout.setBackgroundColor(Color.RED);
-            }
-            if (b4.isChecked()){
-                layout.setBackgroundColor(Color.RED);
-            }
+        if (b1.isChecked()){
+            layout.setBackgroundColor(Color.GRAY);
+        }
+        else if (b2.isChecked()){
+            layout.setBackgroundColor(Color.BLUE);
+        }
+        else if (b3.isChecked()){
+            layout.setBackgroundColor(Color.YELLOW);
+        }
+        else if (b4.isChecked()){
+            layout.setBackgroundColor(Color.MAGENTA);
         }
     }
 }

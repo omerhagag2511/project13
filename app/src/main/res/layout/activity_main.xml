@@ -20,25 +20,25 @@
             android:id="@+id/b1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="orange" />
+            android:text="gray" />
 
         <RadioButton
             android:id="@+id/b2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="red" />
+            android:text="blue" />
 
         <RadioButton
             android:id="@+id/b3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="blue" />
+            android:text="yellow" />
 
         <RadioButton
             android:id="@+id/b4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="brown" />
+            android:text="magenta" />
 
     </RadioGroup>
 
@@ -60,7 +60,8 @@
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="75dp"
-        android:text="dark/light"
+        android:onClick="next"
+        android:text="red/green"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
